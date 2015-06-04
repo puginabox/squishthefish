@@ -1,0 +1,33 @@
+    <nav class="search">
+        <h1>squish the fish</h1>
+<!--        <label>search:</label>-->
+        <img src="img/logo.svg" role="banner"/>
+        <input ng-model="query" type="search" placeholder="fish in here" autofocus>
+
+<!--
+        <label class="formgroup">
+            <select ng-model="fishOrder">
+                <option value="name">blue pill</option>
+                <option value="reknown">red pill</option>
+            </select>
+        </label>
+
+        <label class="formgroup">
+            <input type="radio" ng-model="direction" name="direction" checked>up
+        </label>
+        <label class="formgroup">
+            <input type="radio" ng-model="direction" name="direction" value="reverse">down
+        </label>
+-->
+
+    </nav>
+    <ul class="fishes" ng-show="query">
+        <li ng-animate="'animate'" class="fish" ng-repeat="item in fishes | filter: query | orderBy: fishOrder:direction">
+            <a href="#/details/{{fishes.indexOf(item)}}">
+                <img ng-src="img/{{item.shortname}}_tn.png" alt="Photo of {{item.name}}">
+                <div class="info">
+                    <h2>{{item.name}}</h2>
+                </div>
+            </a>
+        </li>
+    </ul>

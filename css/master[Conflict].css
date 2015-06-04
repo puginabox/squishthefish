@@ -1,0 +1,585 @@
+/* line 3, ../dev/sass/_normalize.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 91, ../dev/sass/_normalize.scss */
+html {
+  line-height: 1;
+}
+
+/* line 94, ../dev/sass/_normalize.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 98, ../dev/sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 102, ../dev/sass/_normalize.scss */
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 109, ../dev/sass/_normalize.scss */
+q,
+blockquote {
+  quotes: none;
+}
+
+/* line 113, ../dev/sass/_normalize.scss */
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 120, ../dev/sass/_normalize.scss */
+a img {
+  border: none;
+}
+
+/* line 123, ../dev/sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 137, ../dev/sass/_normalize.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+/* line 144, ../dev/sass/_normalize.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 151, ../dev/sass/_normalize.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 154, ../dev/sass/_normalize.scss */
+html {
+  min-height: 100%;
+  height: auto;
+}
+
+/* line 1, ../dev/sass/_ngCloaked.scss */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+@font-face {
+  font-family: 'unskinnybopmedium';
+  src: url("fontfiles/unskinnybop-webfont.eot");
+  src: url("fontfiles/unskinnybop-webfont.eot?#iefix") format("embedded-opentype"), url("fontfiles/unskinnybop-webfont.woff") format("woff"), url("fontfiles/unskinnybop-webfont.ttf") format("truetype"), url("fontfiles/unskinnybop-webfont.svg#unskinnybopmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/ODelI1aHBYDBqgeIAH2zlJbPFduIYtoLzwST68uhz_Y.woff2) format("woff2"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format("woff");
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/toadOcfmlt9b38dHJxOBGMzFoXZ-Kj537nB_-9jJhlA.woff2) format("woff2"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/toadOcfmlt9b38dHJxOBGCmgpmuQqK2I-L2S9cF65Ek.woff) format("woff");
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/toadOcfmlt9b38dHJxOBGJkF8H8ye47wsfpWywda8og.woff2) format("woff2"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/toadOcfmlt9b38dHJxOBGIqjGYJUyOXcBwUQbRaNH6c.woff) format("woff");
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Source Sans Pro Black"), local("SourceSansPro-Black"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/toadOcfmlt9b38dHJxOBGIq-Fb0zf838trI74uojZQY.woff2) format("woff2"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/toadOcfmlt9b38dHJxOBGC7eGk4PJkA83J1AXCmgUfc.woff) format("woff");
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold Italic"), local("SourceSansPro-SemiboldIt"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/fpTVHK8qsXbIeTHTrnQH6FuRfpT8-4D6FEAtfkspckX3rGVtsTkPsbDajuO5ueQw.woff2) format("woff2"), url(http://fonts.gstatic.com/s/sourcesanspro/v8/fpTVHK8qsXbIeTHTrnQH6J4LxuTxC3JbLqy8IUt0K1T3rGVtsTkPsbDajuO5ueQw.woff) format("woff");
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Dosis ExtraLight"), local("Dosis-ExtraLight"), url(http://fonts.gstatic.com/s/dosis/v3/RPKDmaFi75RJkvjWaDDb0nYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2"), url(http://fonts.gstatic.com/s/dosis/v3/zuuDDmIlQfJeEM3Uf6kkpnYhjbSpvc47ee6xR_80Hnw.woff) format("woff");
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Dosis Light"), local("Dosis-Light"), url(http://fonts.gstatic.com/s/dosis/v3/7aJzV14HzAOiwNTiPgucGXYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2"), url(http://fonts.gstatic.com/s/dosis/v3/GpmMKE0dnXylect5ObzLR3YhjbSpvc47ee6xR_80Hnw.woff) format("woff");
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Dosis Regular"), local("Dosis-Regular"), url(http://fonts.gstatic.com/s/dosis/v3/oaBFj7Fz9Y9_eW3k9Jd9X6CWcynf_cDxXwCLxiixG1c.woff2) format("woff2"), url(http://fonts.gstatic.com/s/dosis/v3/Ewe0SEXPrakEimFzbOGwB6CWcynf_cDxXwCLxiixG1c.woff) format("woff");
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Dosis Medium"), local("Dosis-Medium"), url(http://fonts.gstatic.com/s/dosis/v3/mAcLJWdPWDNiDJwJvcWKc3YhjbSpvc47ee6xR_80Hnw.woff2) format("woff2"), url(http://fonts.gstatic.com/s/dosis/v3/A4RWZsncmJ25G8iqn2EHN3YhjbSpvc47ee6xR_80Hnw.woff) format("woff");
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Dosis SemiBold"), local("Dosis-SemiBold"), url(http://fonts.gstatic.com/s/dosis/v3/O6SOu9hYsPHTU43R17NS5XYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2"), url(http://fonts.gstatic.com/s/dosis/v3/f8qltGyj2S-SS_tsOHsjgXYhjbSpvc47ee6xR_80Hnw.woff) format("woff");
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Dosis Bold"), local("Dosis-Bold"), url(http://fonts.gstatic.com/s/dosis/v3/22aDRG5X9l7obljtz7tihnYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2"), url(http://fonts.gstatic.com/s/dosis/v3/x-7NZTw0n-ypOAaIE8uSrnYhjbSpvc47ee6xR_80Hnw.woff) format("woff");
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Dosis ExtraBold"), local("Dosis-ExtraBold"), url(http://fonts.gstatic.com/s/dosis/v3/nq3OPeKr7RUSF_YDJ1woxnYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2"), url(http://fonts.gstatic.com/s/dosis/v3/k9xA3bmr7wstksq4xsFJaXYhjbSpvc47ee6xR_80Hnw.woff) format("woff");
+}
+/* line 84, ../dev/sass/_mixins.scss */
+.test {
+  -moz-transform: skew(25deg, 10deg);
+  -o-transform: skew(25deg, 10deg);
+  -ms-transform: skew(25deg, 10deg);
+  -webkit-transform: skew(25deg, 10deg);
+  transform: skew(25deg, 10deg);
+  moz-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+
+/* line 1, ../dev/sass/_typography.scss */
+body {
+  font-family: UnskinnyBop;
+  font-size: 1rem;
+  line-height: 160%;
+  line-height: 1.231;
+}
+
+/* line 7, ../dev/sass/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: UnskinnyBop;
+  font-weight: normal;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+}
+
+/* line 13, ../dev/sass/_typography.scss */
+a {
+  color: #39cccc;
+}
+
+/* line 16, ../dev/sass/_typography.scss */
+h1 {
+  font-size: 2.2rem;
+  letter-spacing: -8px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* line 22, ../dev/sass/_typography.scss */
+h2 {
+  font-size: 1.3rem;
+  line-height: 90%;
+  color: white;
+}
+
+/* line 29, ../dev/sass/_typography.scss */
+h3 {
+  font-family: dosis, sans-serif;
+  margin-top: 0;
+}
+
+/* line 34, ../dev/sass/_typography.scss */
+p {
+  line-height: 1.3rem;
+  margin-bottom: 10px;
+}
+
+/* line 38, ../dev/sass/_typography.scss */
+a.small {
+  line-height: 100%;
+  font-size: .9rem;
+}
+
+/* line 1, ../dev/sass/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0 !important;
+}
+
+/* line 7, ../dev/sass/_base.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 10, ../dev/sass/_base.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 15, ../dev/sass/_base.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 20, ../dev/sass/_base.scss */
+body {
+  *zoom: 1;
+  -webkit-font-smoothing: antialiased;
+  background: #EB4C4C;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+
+/* line 1, ../dev/sass/_layout.scss */
+.main.ng-scope {
+  width: 80%;
+}
+
+/******************* fishes *************************/
+/* line 6, ../dev/sass/_layout.scss */
+.fishes {
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-box-flex: 4 90%;
+  -moz-box-flex: 4 90%;
+  -webkit-flex: 4 90%;
+  -ms-flex: 4 90%;
+  flex: 4 90%;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  min-width: 290px;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  z-index: 10;
+}
+
+/* line 22, ../dev/sass/_layout.scss */
+.fishes ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 26, ../dev/sass/_layout.scss */
+.fishes li {
+  width: 50%;
+  display: inline-block;
+  flex: 3;
+  margin: 0;
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/* line 36, ../dev/sass/_layout.scss */
+.fishes a {
+  display: block;
+  text-decoration: none;
+}
+
+/* line 40, ../dev/sass/_layout.scss */
+.fishes li:hover {
+  opacity: 1;
+  -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+  z-index: 999;
+}
+
+/* line 45, ../dev/sass/_layout.scss */
+.fishes li img {
+  display: block;
+  float: left;
+  width: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+}
+
+/* line 53, ../dev/sass/_layout.scss */
+.fishes li info {
+  display: block;
+  float: left;
+  padding-left: 120px !important;
+}
+
+/* line 58, ../dev/sass/_layout.scss */
+.fishes li:last-child {
+  border-bottom: none;
+}
+
+/* line 61, ../dev/sass/_layout.scss */
+.details {
+  font-size: 1.1em;
+  line-height: 160%;
+  color: #0F4150;
+  width: 90%;
+  min-width: 320px;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  z-index: 20;
+}
+
+/* line 74, ../dev/sass/_layout.scss */
+.details header {
+  background: url(../img/logo.svg) no-repeat;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+/* line 80, ../dev/sass/_layout.scss */
+.details header h1 {
+  display: none;
+}
+
+/* line 83, ../dev/sass/_layout.scss */
+.details img {
+  width: 40%;
+  max-width: 130px;
+  float: left;
+}
+
+/* line 88, ../dev/sass/_layout.scss */
+.fish.ng-enter.ng-enter-active,
+.fish.ng-leave {
+  opacity: 1;
+  height: 80px;
+}
+
+/* line 94, ../dev/sass/_layout.scss */
+.fish.ng-leave.ng-leave-active,
+.fish.ng-enter {
+  opacity: 0;
+  height: 0;
+}
+
+/******************* Search Styles ****************/
+/* line 110, ../dev/sass/_layout.scss */
+.search {
+  width: 90%;
+  -webkit-box-flex: 4 90%;
+  -moz-box-flex: 4 90%;
+  -webkit-flex: 4 90%;
+  -ms-flex: 4 90%;
+  flex: 4 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px 30px;
+  text-align: center;
+  z-index: 99999;
+  color: white;
+}
+
+/* line 122, ../dev/sass/_layout.scss */
+input {
+  color: #7fdbff;
+}
+
+/* line 125, ../dev/sass/_layout.scss */
+.search img {
+  max-width: 60%;
+}
+
+/* line 128, ../dev/sass/_layout.scss */
+.search input {
+  width: 100%;
+  padding: 10px 0 10px 15px;
+  font-size: 1rem;
+  background: none;
+  outline: 0;
+  border: none;
+  background: none;
+  text-align: center;
+}
+
+/* line 138, ../dev/sass/_layout.scss */
+.search .formgroup input {
+  display: inline;
+  text-align: center;
+  width: auto;
+}
+
+/* line 143, ../dev/sass/_layout.scss */
+.search label.formgroup {
+  display: inline;
+  width: auto;
+  text-align: center;
+}
+
+/* line 148, ../dev/sass/_layout.scss */
+.search select {
+  display: inline;
+  padding: 10px 0 10px 15px;
+  font-size: 1rem;
+  outline: 0;
+}
+
+/* *************** Articles */
+/* line 158, ../dev/sass/_layout.scss */
+.info p {
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 163, ../dev/sass/_layout.scss */
+.info img {
+  max-width: 100%;
+  padding: 0 1rem 1rem 0;
+}
+
+/* *************** home */

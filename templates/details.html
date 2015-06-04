@@ -1,0 +1,16 @@
+<section class="details">
+    <header>
+        <h1>Squish the fish</h1>
+    </header>
+    <div class="fish" ng-model="fishes">
+        <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
+        <a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
+        <h1 class="named">{{fishes[whichItem].name}}</h1>
+        <article class="info">
+            <h3>{{fishes[whichItem].reknown}}</h3>
+            <img ng-src="img/{{fishes[whichItem].shortname}}.png" alt="Photo of {{fishes[whichItem].name}}" />
+            <p>{{fishes[whichItem].bio}}</p>
+        </article>
+    </div>
+    <a class="btn" href="index.html">Back to search</a>
+</section>

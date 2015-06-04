@@ -1,0 +1,41 @@
+body {
+    font-family: UnskinnyBop;
+    font-size: 1rem;
+    line-height: 160%;
+    line-height: 1.231;   
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: UnskinnyBop;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+a { 
+    color: $teal; 
+}
+h1 {
+    font-size: 2.2rem;
+    letter-spacing: -8px;    
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2 {
+    
+//    font-size: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 90%;
+    color: white;
+}
+h3 {
+    font-family: dosis, sans-serif;
+    margin-top: 0;
+//    font-size: 2rem;
+}
+p {
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+}
+a.small {
+    line-height: 100%;
+    font-size: .9rem;
+}

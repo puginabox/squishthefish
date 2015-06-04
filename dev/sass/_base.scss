@@ -1,0 +1,43 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0 !important;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body { 
+    *zoom: 1;
+    -webkit-font-smoothing: antialiased;
+    background: $coral;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    @include flexbox();
+    justify-content: space-around;
+//    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+}
+
+a.btn {
+    color: #FFF;
+    font-size: 32px;
+    padding: 60px 10px;
+}
+h1.named, h3 {
+letter-spacing: 8px;    
+}
+
